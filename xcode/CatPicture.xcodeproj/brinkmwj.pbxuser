@@ -2,9 +2,9 @@
 {
 	00BAE6590E7ED9C10018A608 /* CatPictureApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1030, 1053}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1030, 1235}}";
 			sepNavSelRange = "{1077, 0}";
-			sepNavVisRange = "{193, 1376}";
+			sepNavVisRange = "{135, 1480}";
 			sepNavWindowFrame = "{{4, 0}, {1089, 878}}";
 		};
 	};
@@ -12,6 +12,9 @@
 		activeBuildConfigurationName = Release;
 		activeExecutable = F038B28615BEE5CB0054BB8C /* CatPicture */;
 		activeTarget = 8D1107260486CEB800E47090 /* CatPicture */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* CatPicture */,
+		);
 		codeSenseManager = F038B29E15BEE5E50054BB8C /* Code sense */;
 		executables = (
 			F038B28615BEE5CB0054BB8C /* CatPicture */,
@@ -22,7 +25,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					356,
+					341,
 					20,
 					48,
 					43,
@@ -39,15 +42,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 365005438;
-			PBXWorkspaceStateSaveDate = 365005438;
+			PBXPerProjectTemplateStateSaveDate = 365019831;
+			PBXWorkspaceStateSaveDate = 365019831;
 		};
 		perUserProjectItems = {
-			F034483615BF382A00B82552 = F034483615BF382A00B82552 /* PlistBookmark */;
-			F038B2B715BEEAB70054BB8C = F038B2B715BEEAB70054BB8C /* PBXTextBookmark */;
-			F078341F15C025B800398816 = F078341F15C025B800398816 /* PBXBookmark */;
-			F078342615C0260500398816 = F078342615C0260500398816 /* PlistBookmark */;
-			F078342B15C0260500398816 = F078342B15C0260500398816 /* PBXTextBookmark */;
+			F038B2B715BEEAB70054BB8C /* PBXTextBookmark */ = F038B2B715BEEAB70054BB8C /* PBXTextBookmark */;
+			F078342615C0260500398816 /* PlistBookmark */ = F078342615C0260500398816 /* PlistBookmark */;
+			F078342B15C0260500398816 /* PBXTextBookmark */ = F078342B15C0260500398816 /* PBXTextBookmark */;
+			F099C07415C1C37B00C8D113 /* PlistBookmark */ = F099C07415C1C37B00C8D113 /* PlistBookmark */;
+			F099C07715C1C37B00C8D113 /* PBXTextBookmark */ = F099C07715C1C37B00C8D113 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F038B29D15BEE5E50054BB8C /* Source Control */;
 		userBuildSettings = {
@@ -65,17 +68,6 @@
 		executables = (
 			F038B28615BEE5CB0054BB8C /* CatPicture */,
 		);
-	};
-	F034483615BF382A00B82552 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/brinkmwj/Work/Teaching and learning/Courses/2012-2013_Fall/274/Gits/CatPicture/xcode/Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
 	};
 	F038B28615BEE5CB0054BB8C /* CatPicture */ = {
 		isa = PBXExecutable;
@@ -131,10 +123,6 @@
 		vrLen = 323;
 		vrLoc = 0;
 	};
-	F078341F15C025B800398816 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 00BAE6590E7ED9C10018A608 /* CatPictureApp.cpp */;
-	};
 	F078342615C0260500398816 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
@@ -155,5 +143,26 @@
 		rType = 0;
 		vrLen = 1376;
 		vrLoc = 193;
+	};
+	F099C07415C1C37B00C8D113 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/brinkmwj/Work/Teaching and learning/Courses/2012-2013_Fall/274/Gits/CatPicture/xcode/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F099C07715C1C37B00C8D113 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 00BAE6590E7ED9C10018A608 /* CatPictureApp.cpp */;
+		name = "CatPictureApp.cpp: 46";
+		rLen = 0;
+		rLoc = 1077;
+		rType = 0;
+		vrLen = 1480;
+		vrLoc = 135;
 	};
 }
