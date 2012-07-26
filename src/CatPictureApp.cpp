@@ -78,6 +78,11 @@ void CatPictureApp::update()
 	}
 
 	(*myTexture_).update(*mySurface_,(*mySurface_).getBounds());
+
+	//Only save the first frame of drawing as output
+	if(frameNumber_ == 1){
+		writeImage("brinkmwj.png",*mySurface_);
+	}
 }
 
 void CatPictureApp::draw()
