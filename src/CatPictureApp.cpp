@@ -14,6 +14,8 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
+#include "cinder/ImageIo.h"
+#include "Resources.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -29,6 +31,7 @@ class CatPictureApp : public AppBasic {
 	void draw();
 	void prepareSettings(Settings* settings);
 
+private:
 	Surface* mySurface_;
 	gl::Texture* myTexture_;
 
@@ -50,6 +53,7 @@ void CatPictureApp::setup()
 
 void CatPictureApp::update()
 {
+	//This allows very basic animatino
 	frameNumber_++;
 
 	uint8_t* dataArray = (*mySurface_).getData();
@@ -78,6 +82,8 @@ void CatPictureApp::draw()
 {
 	//Draw our texture to the screen, using graphics library
 	gl::draw(*myTexture_);
+	gl::Texture catPicture( loadImage( loadResource(RES_FEELBAD ) ) );
+	gl::draw(catPicture);
 }
 
 CINDER_APP_BASIC( CatPictureApp, RendererGl )
